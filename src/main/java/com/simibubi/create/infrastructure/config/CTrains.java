@@ -5,7 +5,7 @@ import com.simibubi.create.foundation.config.ConfigBase;
 public class CTrains extends ConfigBase {
 
 	public final ConfigBool trainsCauseDamage = b(true, "trainsCauseDamage", Comments.trainsCauseDamage);
-	public final ConfigInt maxTrackPlacementLength = i(32, 16, 128, "maxTrackPlacementLength", Comments.maxTrackPlacementLength);
+	public final ConfigInt maxTrackPlacementLength = i(32, 16, 2048, "maxTrackPlacementLength", Comments.maxTrackPlacementLength);
 	public final ConfigInt maxAssemblyLength = i(128, 5, "maxAssemblyLength", Comments.maxAssemblyLength);
 	public final ConfigInt maxBogeyCount = i(20, 1, "maxBogeyCount", Comments.maxBogeyCount);
 	public final ConfigFloat manualTrainSpeedModifier = f(.75f, 0, "manualTrainSpeedModifier", Comments.manualTrainSpeedModifier);
